@@ -1,0 +1,24 @@
+/* Aurora */
+
+.header__logo {
+
+position: absolute;
+height: 57px;
+left: 1.67%;
+right: 88.54%;
+top: calc(50% - 57px/2 - 13.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 57px;
+/* identical to box height */
+
+letter-spacing: 0.95px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+
+}

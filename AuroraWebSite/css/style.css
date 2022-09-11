@@ -1,0 +1,166 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    font-size: 13px;
+    line-height: 1,6em;
+    color: #000000;
+    
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.header__line {
+    display: flex;
+    margin-left: 45%;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    font-size: 38px;
+}
+
+/* We deliver Worldwide */
+
+.clarification {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+color: #000000;
+}
+
+.intro {
+    display: block;
+    width: 100%;
+    height: 756px;
+    color: white;
+    background: url('/css/images/intro.jpg') center no-repeat;
+    /* -webkit-background-size: cover; */
+    /* background-size: cover; */
+}
+
+.intro:active {
+    background: url('/css/images/intro2.jpg');
+    color: black;
+}
+
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    /* position: absolute; */
+    top: 46px;
+    left: 100px;
+    right: 100px;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.navigation {
+    width: fit-content;
+    height: 57px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+display: inline-block;
+vertical-align: top;
+margin: 48px 16px;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 1px;
+text-decoration: none;
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+transition: color .2s linear;
+color: #FFFFFF;
+}
+
+.greeting__blok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    height: 78%;
+}
+
+.second__part {
+    background-color: white;
+    color: #000000;
+}
+
+/* What are you looking */
+
+.search-form {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+vertical-align: middle;
+line-height: 16px;
+letter-spacing: 0.8px;
+color: #FFFFFF;
+}
+
+.btn {
+    color: white;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+.footer {
+    display: flex;
+    background: #F7F7F7;
+}
+
+.link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+
+.footer__list {
+    list-style-type: none;
+}
+.sign__in {
+    /* margin-left: 95%; */
+
+}
+
+@media (max-width:768px) {
+    .intro {
+        width: 49%;
+    }
+    
+}

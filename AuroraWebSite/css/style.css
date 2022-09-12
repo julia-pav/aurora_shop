@@ -30,6 +30,16 @@ body {
     font-size: 38px;
 }
 
+.header__logo:hover {
+    color: #e89e15;
+}
+.header__logo:active {
+    color: #000000;
+}
+.header__logo:focus {
+    color: #000000;
+}
+
 /* We deliver Worldwide */
 
 .clarification {
@@ -70,10 +80,26 @@ color: #000000;
     z-index: 1000;
 }
 
+.register {
+    font-size: 11px;
+}
+
 .header__inner {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
+}
+
+.register:hover {
+    color: #e89e15;
+    transition: color .2s linear;
+}
+.register:active {
+    color: #000000;
+    transition: color .2s linear;
+}
+.register:focus {
+    color: #000000;
 }
 
 .navigation {
@@ -86,6 +112,8 @@ color: #000000;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .nav__menu {
 display: inline-block;
@@ -100,6 +128,18 @@ text-decoration: none;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
 transition: color .2s linear;
 color: #FFFFFF;
+}
+
+.nav__menu:hover {
+    color: #e89e15;
+    transition: color .2s linear;
+}
+.nav__menu:active {
+    color: #000000;
+    transition: color .2s linear;
+}
+.nav__menu:focus {
+    color: #000000;
 }
 
 .greeting__blok {
@@ -133,6 +173,11 @@ color: #FFFFFF;
     color: white;
     background-color: #000000;
     border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #e89e15;
+    color: #000000;
 }
 
 .footer {
